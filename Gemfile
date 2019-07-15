@@ -13,7 +13,7 @@ gem 'byebug'
 gem "bcrypt"
 gem "irb"
 
-group :ennironment do
+group :development do
 gem 'dotenv'
 end
 
