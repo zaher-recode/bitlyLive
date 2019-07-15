@@ -5,7 +5,7 @@
          <% if @urls  %>
             <%  @urls.count < 5 ? n = @urls.count : n = 5 %>
             <% n.times do |i|%>
-                <%  url = " https://surety-url-shortner.herokuapp.com/#{@urls[i].short_url}" %>
+                <%  url = "#{@urls[i].short_url}" %>
                 <li class=" list-group-item mx-4"> 
                     <a class="text-primary" href= <%= url %> > <%= url %> </a> 
                     <span class="visits text-success">Visits : <%= @urls[i].visits %> </span> 
