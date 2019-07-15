@@ -13,6 +13,10 @@ gem 'byebug'
 gem "bcrypt"
 gem "irb"
 
+group :ennironment do
+gem 'dotenv'
+end
+
 group :test do
   gem 'launchy'
   gem 'rspec'
