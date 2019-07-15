@@ -14,7 +14,7 @@
         <h3> My Url's </h3>
         <ul class="list" id="scrollable">
             <% @num.times do |i|%>
-                <%  url = " https://surety-url-shortner.herokuapp.com/#{@urls[i].short_url}" %>
+                <%  url = "#{@urls[i].short_url}" %>
                 <li class=" list-group-item mx-4">
                     <a class="text-primary" href= <%= url %> > <%= url %> </a> 
                     <span class="visits text-success">Visits : <%= @urls[i].visits %> </span> 
