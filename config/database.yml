@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  database: url_shortener_development
+  pool: 5
+  timeout: 5000
+
+  development:
+  adapter: postgresql
+  database: url_shortener_test
+  pool: 5
+  timeout: 5000
+
+  development:
+  adapter: postgresql
+  database: url_shortener_production
+  pool: 5
+  timeout: 5000
+  url: <%= ENV['DATABASE_URL'] %>
+

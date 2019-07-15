@@ -1,0 +1,89 @@
+header{
+    height: 40px;
+}
+
+.jumbotron{
+    background-color: #f7ffe6;
+    height: 50vh;
+}
+    
+.lead{
+    margin: 2px;
+}
+
+body{
+    background-color:  #3b476b;
+}
+
+.display-4{
+    font-weight: 700;
+    font-family: Calibri, monospace;
+    margin-top: -50px;
+}
+
+p{
+    font-size: 18px;
+}
+
+#footer{
+position: relative;
+color: red ;
+bottom: 0px;
+width: 100%;
+height: 40px;
+background-color: #252729;
+font-size: 16px;
+}
+
+.company{
+    font-family: Calibri;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+.list_urls{
+padding: 20px 20%;
+color: #f7ffe6;
+list-style: none;
+}
+
+.card-full{
+    margin-top: 50px;
+    color: #394466;
+}
+
+.card{
+    padding: 50px 25%;
+    background-color: #f7ffe6;
+    margin: 0;
+}
+
+
+#header{
+    background-color: #252729;
+}
+
+.list-url{
+    list-style: none;
+}
+
+#scrollable{
+    height:300px;
+    overflow:hidden;
+    overflow-y:scroll;
+    font-family: monospace;
+}
+#user-jumbmtron{
+    height: 40vh;
+}
+.modifier{
+    display: inline-flex;
+    margin: 0 10px;
+}
+.form_modifier{
+    margin-left: 20px;
+}
+.visits{
+    margin: 0 75px;
+}
