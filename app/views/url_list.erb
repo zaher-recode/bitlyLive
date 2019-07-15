@@ -2,13 +2,18 @@
     <section class="list_urls text-center">
         <h3> Last 5 Url's Generated </h3>
         <ul class="list">
-            <% 5.times do |i|%>
+         <% if @urls  %>
+            <%  @urls.count < 5 ? n = @urls.count : n = 5 %>
+            <% n.times do |i|%>
                 <%  url = " http://127.0.0.1:9393/#{@urls[i].short_url}" %>
                 <li class=" list-group-item mx-4"> 
                     <a class="text-primary" href= <%= url %> > <%= url %> </a> 
                     <span class="visits text-success">Visits : <%= @urls[i].visits %> </span> 
                 </li>
             <% end %>
+
+
+        <% end %>
         </ul>
 
     </section>
